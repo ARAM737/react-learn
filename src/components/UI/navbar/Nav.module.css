@@ -1,0 +1,25 @@
+.navbar {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink {
+    min-width: 100px;
+    min-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navLink:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navLink:last-child {
+    margin-right: 0;
+}
